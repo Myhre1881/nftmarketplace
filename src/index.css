@@ -1,0 +1,20 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  
+}
+
+.wo{
+  background-image: linear-gradient(to left top, #000000, #31001e, #510047, #5c0085, #0f0ed3);
+}
