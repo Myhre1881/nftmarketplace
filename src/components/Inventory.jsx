@@ -80,7 +80,7 @@ const Inventory = ({ marketplace, nft, account }) => {
   useEffect(() => {
     loadPurchasedItems()
     loadListedItems()
-  },[])
+  },[]) // eslint-disable-line react-hooks/exhaustive-deps
   if (loading) return (
     <main className='bg-[#0a192f] h-screen w-full flex justify-center items-center'>
       <h2 className='text-9xl text-[#ccd6f6] hidden sm:block'>Loading</h2> <div className='lds-ring'><div></div><div></div><div></div><div></div> </div>
